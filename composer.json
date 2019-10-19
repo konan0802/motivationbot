@@ -1,0 +1,6 @@
+{
+    "require": {
+        "linecorp/line-bot-sdk": "^3.14",
+        "evernote/evernote-cloud-sdk-php": "dev-master"
+    }
+}
