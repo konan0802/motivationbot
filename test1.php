@@ -43,5 +43,5 @@ foreach($notes->notes as $note){
     $noteContents[$counter][1] = $noteStore->getNoteContent($noteId);
     $counter++;
 }
-
-var_dump($noteContents);
+$counter--;
+$result = $noteContents[mt_rand(0, $counter)];
