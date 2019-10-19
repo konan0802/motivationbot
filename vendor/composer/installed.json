@@ -1,5 +1,49 @@
 [
     {
+        "name": "evernote/evernote",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/evernote/evernote-sdk-php.git",
+            "reference": "177e10b9fd56ed6ff8857cf937408f069bc5c7e9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/evernote/evernote-sdk-php/zipball/177e10b9fd56ed6ff8857cf937408f069bc5c7e9",
+            "reference": "177e10b9fd56ed6ff8857cf937408f069bc5c7e9",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "time": "2016-04-04T20:41:16+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "lib/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache"
+        ],
+        "authors": [
+            {
+                "name": "Evernote and contributors",
+                "homepage": "https://github.com/evernote/evernote-sdk-php/contributors"
+            }
+        ],
+        "description": "Evernote PHP SDK",
+        "homepage": "https://github.com/evernote/evernote-sdk-php",
+        "keywords": [
+            "api",
+            "evernote",
+            "sdk"
+        ]
+    },
+    {
         "name": "linecorp/line-bot-sdk",
         "version": "3.14.0",
         "version_normalized": "3.14.0.0",

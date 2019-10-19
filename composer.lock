@@ -4,8 +4,50 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2af19d417131abd78c452e6f31978895",
+    "content-hash": "39bc90ff5c99f103af9d111177849808",
     "packages": [
+        {
+            "name": "evernote/evernote",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/evernote/evernote-sdk-php.git",
+                "reference": "177e10b9fd56ed6ff8857cf937408f069bc5c7e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/evernote/evernote-sdk-php/zipball/177e10b9fd56ed6ff8857cf937408f069bc5c7e9",
+                "reference": "177e10b9fd56ed6ff8857cf937408f069bc5c7e9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache"
+            ],
+            "authors": [
+                {
+                    "name": "Evernote and contributors",
+                    "homepage": "https://github.com/evernote/evernote-sdk-php/contributors"
+                }
+            ],
+            "description": "Evernote PHP SDK",
+            "homepage": "https://github.com/evernote/evernote-sdk-php",
+            "keywords": [
+                "api",
+                "evernote",
+                "sdk"
+            ],
+            "time": "2016-04-04T20:41:16+00:00"
+        },
         {
             "name": "linecorp/line-bot-sdk",
             "version": "3.14.0",
@@ -84,7 +126,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "evernote/evernote": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
