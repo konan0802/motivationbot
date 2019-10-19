@@ -23,7 +23,7 @@ $channelAccessToken = 'ChZVXqJ0p77jaRvxCIMmunAKUNrPJuyTKf5P8ROL8PoQQ+SNrotL5ebjR
 $channelSecret = 'bbc30ba962430718cf5e6b1ef67fdb65';
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
-$sendText = $result[0]+'/n'+$result[1];#$message['text']
+$sendText = $result[0].$result[1];#$message['text']
 foreach ($client->parseEvents() as $event) {
     switch ($event['type']) {
         case 'message':
